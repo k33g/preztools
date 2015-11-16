@@ -14,7 +14,7 @@ See:
 
 - [Add a terminal to your page](/sample1.html)
 - [Add a webcam to your page](/sample2.html)
-- [Add a terminal and a webcam to your page](/sample2.html)
+- [Add a terminal and a webcam to your page](/sample3.html)
 
 
 ### Add a terminal to your page
