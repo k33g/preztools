@@ -36,7 +36,7 @@ Type the following command (in a docker terminal):
 
 <img src="term0.png" height="70%" width="70%">
 
-**Remark**: `9000` is the **Wetty** port, `3000` is the http port (static assets are served by **http-server**)
+**Remark**: `3000` is the **Wetty** port, `9000` is the http port (static assets are served by **http-server**)
 
 - Now, open [http://192.168.99.100:9000/](http://192.168.99.100:9000/), and you land to a home page (that you can change, go and see the `/src` directory).
 - Select the link [http://192.168.99.100:9000/sample1.html](http://192.168.99.100:9000/sample1.html)
