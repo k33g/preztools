@@ -34,7 +34,7 @@ Type the following command (in a docker terminal):
 
     docker run -v ~/complete_path_to/src:/src -p 9000:9000 -p 3000:3000 -i -t preztools
 
-<img src="term0.png" height="50%" width="50%">
+<img src="term0.png" height="70%" width="70%">
 
 **Remark**: `9000` is the **Wetty** port, `3000` is the http port (static assets are served by **http-server**)
 
@@ -43,7 +43,7 @@ Type the following command (in a docker terminal):
 - You get a terminal in your web page!!!
 - To login: user is `term`, password is `term` 
 
-<img src="term1.png" height="50%" width="50%">
+<img src="term1.png" height="70%" width="70%">
 
 ## Split my terminal
 
@@ -60,16 +60,16 @@ Once logged, a tmux session is open. If you type `ls`, you can see a teamocil co
           - clear
           - clear
 
-<img src="term2.png" height="50%" width="50%">
+<img src="term2.png" height="70%" width="70%">
 
 Now, type this: `teamocil --layout myprez.yml`, and ...  
 
-<img src="term3.png" height="50%" width="50%">
+<img src="term3.png" height="70%" width="70%">
 
 Of course you can write your own configuration files. 
 And even show a video stream and some source code with **vi**. (try [http://192.168.99.100:9000/sample3.html](http://192.168.99.100:9000/sample3.html))
 
-<img src="term4.png" height="50%" width="50%">
+<img src="term4.png" height="70%" width="70%">
   
  
  
