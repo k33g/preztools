@@ -1,0 +1,16 @@
+body {
+    margin: 5px;
+}
+
+content {
+    margin: 5px;
+}
+
+textarea {
+    font-family: 'Menlo';
+}
+code {
+    font-family: 'Menlo';
+}
+.menu li { display:inline;}
+

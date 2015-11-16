@@ -1,0 +1,37 @@
+<prez-cam>
+  <style>
+    .camContainer {
+        margin: 0px auto;
+        border: 5px #333 solid;
+    }
+    .videoElement {
+        background-color: #666;
+    }    
+    
+  </style>
+
+  <div class="camContainer" style="width: {opts.width}; height: {opts.height};">
+      <video name="mycam" autoplay="true" class="videoElement" style="width: {opts.width}; height: {opts.height};">
+      
+      </video>
+  </div>
+  
+  <script>
+    var video = this.mycam;
+    
+    navigator.getUserMedia = navigator.getUserMedia || navigator.webkitGetUserMedia || navigator.mozGetUserMedia || navigator.msGetUserMedia || navigator.oGetUserMedia;
+    
+    if (navigator.getUserMedia) {       
+        navigator.getUserMedia({video: true}, handleVideo, videoError);
+    }
+    
+    function handleVideo(stream) {
+        video.src = window.URL.createObjectURL(stream);
+    }
+    
+    function videoError(e) {}    
+    
+    
+  </script>  
+  
+</prez-cam>

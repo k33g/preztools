@@ -1,0 +1,8 @@
+name: console
+windows:
+  - name: console
+    root: /src
+    layout: tiled
+    panes:
+      - node ../wetty/app.js -p 3000
+      - http-server -p 9000

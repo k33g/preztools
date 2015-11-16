@@ -1,0 +1,27 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>TOOLS.4.PREZ</title>
+  <link rel="stylesheet" href="css/basscss.min.css">
+</head>
+
+<body> 
+  <div class="clearfix">
+    <h2 class="p2">Tools.4.Prez: WebCam</h2>
+    <prez-cam 
+      class="left p2" 
+      width="500px" height="500px">
+    </prez-cam>  
+  </div>
+  
+  <script src="js/vendors/riot+compiler.min.js"></script>
+  <!-- include the tags -->
+  <script src="tags/prez-cam.html" type="riot/tag"></script>
+  <!-- mount the tags -->
+  <script>
+    riot.mount('prez-cam');
+  </script>
+</body>
+</html>

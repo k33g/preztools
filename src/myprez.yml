@@ -1,0 +1,10 @@
+name: myprez
+windows:
+  - name: myprez
+    root: /src
+    layout: tiled
+    panes:
+      - clear
+      - clear
+      - clear
+      - clear

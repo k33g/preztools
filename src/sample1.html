@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>TOOLS.4.PREZ</title>
+  <link rel="stylesheet" href="css/basscss.min.css">
+</head>
+
+<body> 
+
+  <div class="clearfix">
+    <h2 class="p2">Tools.4.Prez: Terminal</h2>
+    <prez-terminal class="left p2 col-9" 
+      width="100%" height="550px" 
+      server="http://192.168.99.100:3000/">
+    </prez-terminal>     
+  </div>
+
+  <script src="js/vendors/riot+compiler.min.js"></script>
+  <!-- include the tags -->
+  <script src="tags/prez-terminal.html" type="riot/tag"></script>
+  <!-- mount the tags -->
+  <script>
+    riot.mount('prez-terminal');
+  </script>
+
+</body>
+</html>

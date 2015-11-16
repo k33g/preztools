@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>TOOLS.4.PREZ</title>
+  <link rel="stylesheet" href="css/basscss.min.css">
+</head>
+
+<body> 
+
+  <div class="clearfix">
+    <h2 class="p2">Tools.4.Prez: Terminal and WebCam</h2>
+    <div class="col col-4">
+      <prez-cam width="350px" height="350px"></prez-cam>
+    </div>
+    <div class="col col-7">
+      <prez-terminal 
+        width="100%" height="550px" 
+        server="http://192.168.99.100:3000/">
+      </prez-terminal>      
+    </div>
+  </div>
+
+  <script src="js/vendors/riot+compiler.min.js"></script>
+  <!-- include the tags -->
+  <script src="tags/prez-terminal.html" type="riot/tag"></script>
+  <script src="tags/prez-cam.html" type="riot/tag"></script>
+  <!-- mount the tags -->
+  <script>
+    riot.mount('prez-terminal');
+    riot.mount('prez-cam');
+  </script>
+  
+
+</body>
+</html>
